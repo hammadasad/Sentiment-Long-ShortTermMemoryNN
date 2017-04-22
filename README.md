@@ -2,7 +2,8 @@
 
 Architecture:
 
-Input -> Embeddings -> LSTM -> Sigmoid
+![alt tag](https://github.com/hammadasad/Sentiment-Long-ShortTermMemoryNN/blob/master/architecture.png)
+
    
    - Used embeddings to prevent one-hot encoding of 1000s of classes
    - Used LSTM Cells to prevent vanishing gradients
